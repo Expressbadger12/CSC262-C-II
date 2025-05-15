@@ -1,0 +1,16 @@
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.frmTest.resources
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.csproj.GenerateResource.cache
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.AssemblyInfoInputs.cache
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.AssemblyInfo.cs
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.csproj.CoreCompileInputs.cache
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.exe
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.deps.json
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.runtimeconfig.json
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.dll
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.pdb
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.dll
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\refint\W1Testing.dll
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.pdb
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.genruntimeconfig.cache
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\ref\W1Testing.dll
