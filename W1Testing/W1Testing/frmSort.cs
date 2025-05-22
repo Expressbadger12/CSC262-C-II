@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Accessibility;
 
 namespace W1Testing
 {
@@ -26,6 +28,11 @@ namespace W1Testing
             int[] irrBubble = (int[])iarrOriginalArray.Clone();
             int[] irrSelection = (int[])iarrOriginalArray.Clone();
 
+            Stopwatch bubbletimer = new Stopwatch();
+                 
+             bubbletimer.Start();
+
+            BubbleSort(irrBubble);
         }
 
 
@@ -47,6 +54,52 @@ namespace W1Testing
 
             //retunr our array with teh random numbers
             return iarrRandomNumbers;
+        }
+
+        //bubble sort function to repeaetedly compare items and bubble them to the correct spot
+        private void BubbleSort(int[] iarrToSort)
+        {
+            int iLengthofArray = iarrToSort.Length;
+
+            //set up the outer loop
+            for (int i = 0; i < iLengthofArray; i++)
+            {
+                //set up the inner loop - if the current element igreater than the ret you swap
+                for (int j = 0; j < iLengthofArray - i - 1; j++)
+                {
+                    if (iarrToSort[j] > iarrToSort[j + 1])
+                    {
+                        int temp = iarrToSort[j];
+                        //replace the next value
+                        iarrToSort[j] = iarrToSort[j + 1];
+
+                        iarrToSort[j + 1] = temp;
+                    }
+                }
+            }
+        }
+
+        private void SelectionSort(int[] iarrToSort)
+        {
+            int iLengthofArray = iarrToSort.Length;
+
+            for (int i=0, i <  iLengthofArray; i++)
+            {
+                //current indexs 
+                int iMinIdex = 1;
+
+                for (int j = __MIDL_IWinTypes_0009 1, j < iLengthOvArray, j++)
+                {
+                    iMinIdex = j;
+                }
+            }
+
+            if (iMinIndex != 1)
+            {
+                int temp = iarrToSort[i];
+
+                iarrToSort[1]
+            }
         }
     }
 }
