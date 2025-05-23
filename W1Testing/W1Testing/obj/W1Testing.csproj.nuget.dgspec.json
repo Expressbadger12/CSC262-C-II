@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FSTEWART86142\\source\\repos\\W1Testing\\W1Testing\\W1Testing.csproj": {}
+    "C:\\Users\\fboon\\Desktop\\CSC262\\CSC262-C-II-main (1)\\CSC262-C-II-main\\W1Testing\\W1Testing\\W1Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FSTEWART86142\\source\\repos\\W1Testing\\W1Testing\\W1Testing.csproj": {
+    "C:\\Users\\fboon\\Desktop\\CSC262\\CSC262-C-II-main (1)\\CSC262-C-II-main\\W1Testing\\W1Testing\\W1Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FSTEWART86142\\source\\repos\\W1Testing\\W1Testing\\W1Testing.csproj",
+        "projectUniqueName": "C:\\Users\\fboon\\Desktop\\CSC262\\CSC262-C-II-main (1)\\CSC262-C-II-main\\W1Testing\\W1Testing\\W1Testing.csproj",
         "projectName": "W1Testing",
-        "projectPath": "C:\\Users\\FSTEWART86142\\source\\repos\\W1Testing\\W1Testing\\W1Testing.csproj",
-        "packagesPath": "C:\\Users\\FSTEWART86142\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FSTEWART86142\\source\\repos\\W1Testing\\W1Testing\\obj\\",
+        "projectPath": "C:\\Users\\fboon\\Desktop\\CSC262\\CSC262-C-II-main (1)\\CSC262-C-II-main\\W1Testing\\W1Testing\\W1Testing.csproj",
+        "packagesPath": "C:\\Users\\fboon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fboon\\Desktop\\CSC262\\CSC262-C-II-main (1)\\CSC262-C-II-main\\W1Testing\\W1Testing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FSTEWART86142\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fboon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

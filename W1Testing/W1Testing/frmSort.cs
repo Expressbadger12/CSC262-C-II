@@ -22,7 +22,7 @@ namespace W1Testing
         private void btnSort_Click(object sender, EventArgs e)
         {
             //generate a random array as specified by these inputs
-            int[] iarrOriginalArray = GenerateRandomArray(1000, 1, 10000);
+            int[] iarrOriginalArray = GenerateRandomArray(10000, 1, 100000);
 
             //create 2 coppies of the random array by our sorting algortuthisn
             int[] irrBubble = (int[])iarrOriginalArray.Clone();
@@ -30,9 +30,22 @@ namespace W1Testing
 
             Stopwatch bubbletimer = new Stopwatch();
                  
-             bubbletimer.Start();
+            bubbletimer.Start();
 
             BubbleSort(irrBubble);
+
+            bubbletimer.Stop();
+
+            Stopwatch selectionTimer = new Stopwatch();
+
+            selectionTimer.Start();
+
+            SelectionSort(irrSelection);
+
+            selectionTimer.Stop();
+
+            lblBubbleSort.Text = $"Bubble sort took {bubbletimer.ElapsedMilliseconds.ToString()} milliseconds";
+            lblSelectionSort.Text = $"Selection sort took {selectionTimer.ElapsedMilliseconds.ToString()} milliseconds";
         }
 
 
@@ -83,22 +96,30 @@ namespace W1Testing
         {
             int iLengthofArray = iarrToSort.Length;
 
-            for (int i=0, i <  iLengthofArray; i++)
+            for (int i = 0; i <  iLengthofArray - 1; i++)
             {
                 //current indexs 
-                int iMinIdex = 1;
+                int iMinIndex = i;
 
-                for (int j = __MIDL_IWinTypes_0009 1, j < iLengthOvArray, j++)
+                for (int j = i + 1; j < iLengthofArray; j++)
                 {
-                    iMinIdex = j;
+                    //compare the current element with the smallest element so far
+                    if (iarrToSort[j] < iarrToSort[iMinIndex])
+                    {
+                        //if a smaller elemnt is found, update the minindex
+                        iMinIndex = j;
+                    }
                 }
-            }
 
-            if (iMinIndex != 1)
-            {
-                int temp = iarrToSort[i];
+                if (iMinIndex != 1)
+                {
+                    //store the current value in a temp variabble
+                    int temp = iarrToSort[i];
+                    //move the smaller element to the current position
+                    iarrToSort[i] = iarrToSort[iMinIndex];
+                    iarrToSort[iMinIndex] = temp;
+                }
 
-                iarrToSort[1]
             }
         }
     }
