@@ -31,3 +31,5 @@ C:\Users\fboon\Desktop\CSC262\CSC262-C-II-main (1)\CSC262-C-II-main\W1Testing\W1
 C:\Users\fboon\Desktop\CSC262\CSC262-C-II-main (1)\CSC262-C-II-main\W1Testing\W1Testing\bin\Debug\net8.0-windows\W1Testing.pdb
 C:\Users\fboon\Desktop\CSC262\CSC262-C-II-main (1)\CSC262-C-II-main\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.genruntimeconfig.cache
 C:\Users\fboon\Desktop\CSC262\CSC262-C-II-main (1)\CSC262-C-II-main\W1Testing\W1Testing\obj\Debug\net8.0-windows\ref\W1Testing.dll
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.frmSort.resources
+C:\Users\FSTEWART86142\source\repos\W1Testing\W1Testing\obj\Debug\net8.0-windows\W1Testing.frmMemoryUser.resources
