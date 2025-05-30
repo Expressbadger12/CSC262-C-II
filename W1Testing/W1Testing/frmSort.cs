@@ -21,32 +21,58 @@ namespace W1Testing
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-            //generate a random array as specified by these inputs
-            int[] iarrOriginalArray = GenerateRandomArray(10000, 1, 100000);
+            try
+            {
+                int userSize = int.Parse(txtSize.Text);
+                int MaxReeebo = userSize * 10;
 
-            //create 2 coppies of the random array by our sorting algortuthisn
-            int[] irrBubble = (int[])iarrOriginalArray.Clone();
-            int[] irrSelection = (int[])iarrOriginalArray.Clone();
+                if (userSize < 1)
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
 
-            Stopwatch bubbletimer = new Stopwatch();
-                 
-            bubbletimer.Start();
+                //lblDebug.Text = $"usersize is {userSize} and Max Reebo is {MaxReeebo}";
 
-            BubbleSort(irrBubble);
+                // generate a random array as specified by these inputs
+                int[] iarrOriginalArray = GenerateRandomArray(MaxReeebo, 1, userSize);
 
-            bubbletimer.Stop();
+                //create 2 coppies of the random array by our sorting algortuthisn
+                int[] irrBubble = (int[])iarrOriginalArray.Clone();
+                int[] irrSelection = (int[])iarrOriginalArray.Clone();
 
-            Stopwatch selectionTimer = new Stopwatch();
+                Stopwatch bubbletimer = new Stopwatch();
 
-            selectionTimer.Start();
+                bubbletimer.Start();
 
-            SelectionSort(irrSelection);
+                BubbleSort(irrBubble);
 
-            selectionTimer.Stop();
+                bubbletimer.Stop();
 
-            lblBubbleSort.Text = $"Bubble sort took {bubbletimer.ElapsedMilliseconds.ToString()} milliseconds";
-            lblSelectionSort.Text = $"Selection sort took {selectionTimer.ElapsedMilliseconds.ToString()} milliseconds";
+                Stopwatch selectionTimer = new Stopwatch();
+
+                selectionTimer.Start();
+
+                SelectionSort(irrSelection);
+
+                selectionTimer.Stop();
+
+                Stopwatch mergeTimer = new Stopwatch();
+
+                lblBubbleSort.Text = $"Bubble sort took {bubbletimer.ElapsedMilliseconds.ToString()} milliseconds";
+                lblSelectionSort.Text = $"Selection sort took {selectionTimer.ElapsedMilliseconds.ToString()} milliseconds";
+            }
+            catch (FormatException) //non-numeric input
+            {
+                lblWhatsize.Text = "Please enter a valid numeric input!";
+                lblWhatsize.ForeColor = System.Drawing.Color.Red;
+            }
+            catch (ArgumentOutOfRangeException) // Negative number
+            {
+                lblWhatsize.Text = "Please enter a positive number";
+                lblWhatsize.ForeColor = System.Drawing.Color.Red;
+            }
         }
+            
 
 
         // create a function to generate an array with a random number of elements between specified min and max
@@ -122,5 +148,6 @@ namespace W1Testing
 
             }
         }
+
     }
 }

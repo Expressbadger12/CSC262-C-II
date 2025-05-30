@@ -38,57 +38,64 @@
             // lblHandle
             // 
             lblHandle.AutoSize = true;
-            lblHandle.Location = new Point(218, 71);
+            lblHandle.Location = new Point(153, 43);
+            lblHandle.Margin = new Padding(2, 0, 2, 0);
             lblHandle.Name = "lblHandle";
-            lblHandle.Size = new Size(125, 25);
+            lblHandle.Size = new Size(83, 15);
             lblHandle.TabIndex = 0;
             lblHandle.Text = "Gamer Handle";
             // 
             // txtHandle
             // 
-            txtHandle.Location = new Point(361, 68);
+            txtHandle.Location = new Point(253, 41);
+            txtHandle.Margin = new Padding(2, 2, 2, 2);
             txtHandle.Name = "txtHandle";
-            txtHandle.Size = new Size(150, 31);
+            txtHandle.Size = new Size(106, 23);
             txtHandle.TabIndex = 1;
             // 
             // lblLevel
             // 
             lblLevel.AutoSize = true;
-            lblLevel.Location = new Point(249, 127);
+            lblLevel.Location = new Point(174, 76);
+            lblLevel.Margin = new Padding(2, 0, 2, 0);
             lblLevel.Name = "lblLevel";
-            lblLevel.Size = new Size(51, 25);
+            lblLevel.Size = new Size(34, 15);
             lblLevel.TabIndex = 2;
             lblLevel.Text = "Level";
             // 
             // txtLevel
             // 
-            txtLevel.Location = new Point(361, 127);
+            txtLevel.Location = new Point(253, 76);
+            txtLevel.Margin = new Padding(2, 2, 2, 2);
             txtLevel.Name = "txtLevel";
-            txtLevel.Size = new Size(150, 31);
+            txtLevel.Size = new Size(106, 23);
             txtLevel.TabIndex = 3;
             // 
             // btnTest
             // 
-            btnTest.Location = new Point(374, 189);
+            btnTest.Location = new Point(262, 113);
+            btnTest.Margin = new Padding(2, 2, 2, 2);
             btnTest.Name = "btnTest";
-            btnTest.Size = new Size(112, 34);
+            btnTest.Size = new Size(78, 20);
             btnTest.TabIndex = 4;
             btnTest.Text = " Test Values";
             btnTest.UseVisualStyleBackColor = true;
-            btnTest.Click += this.btnTest_Click;
+            btnTest.Click += btnTest_Click;
             // 
             // frmTest
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(560, 270);
             Controls.Add(btnTest);
             Controls.Add(txtLevel);
             Controls.Add(lblLevel);
             Controls.Add(txtHandle);
             Controls.Add(lblHandle);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "frmTest";
             Text = "Form1";
+            Load += frmTest_Load;
             ResumeLayout(false);
             PerformLayout();
         }

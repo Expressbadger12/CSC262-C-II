@@ -15,7 +15,7 @@ namespace W1Testing
             return handle.Length >= 5;
         }
 
-        private void btnTest_Click(object sender, EventArgs e) 
+        private void btnTest_Click(object sender, EventArgs e)
         {
             //get the value from teh gamer handle textbox
             string sHandle = txtHandle.Text;
@@ -28,6 +28,11 @@ namespace W1Testing
 
             //For testing - remove before release
             MessageBox.Show("Test Complete");
+        }
+
+        private void frmTest_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

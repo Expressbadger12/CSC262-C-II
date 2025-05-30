@@ -31,44 +31,78 @@
             lblBubbleSort = new Label();
             lblSelectionSort = new Label();
             btnSort = new Button();
+            lblWhatsize = new Label();
+            txtSize = new TextBox();
+            lblDebug = new Label();
             SuspendLayout();
             // 
             // lblBubbleSort
             // 
             lblBubbleSort.AutoSize = true;
-            lblBubbleSort.Location = new Point(325, 150);
+            lblBubbleSort.Location = new Point(228, 65);
+            lblBubbleSort.Margin = new Padding(2, 0, 2, 0);
             lblBubbleSort.Name = "lblBubbleSort";
-            lblBubbleSort.Size = new Size(174, 25);
+            lblBubbleSort.Size = new Size(113, 15);
             lblBubbleSort.TabIndex = 0;
             lblBubbleSort.Text = "Run Sort to see time";
             // 
             // lblSelectionSort
             // 
             lblSelectionSort.AutoSize = true;
-            lblSelectionSort.Location = new Point(325, 187);
+            lblSelectionSort.Location = new Point(228, 91);
+            lblSelectionSort.Margin = new Padding(2, 0, 2, 0);
             lblSelectionSort.Name = "lblSelectionSort";
-            lblSelectionSort.Size = new Size(174, 25);
+            lblSelectionSort.Size = new Size(113, 15);
             lblSelectionSort.TabIndex = 1;
             lblSelectionSort.Text = "Run Sort to see time";
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(285, 261);
+            btnSort.Location = new Point(200, 157);
+            btnSort.Margin = new Padding(2);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(232, 34);
+            btnSort.Size = new Size(162, 20);
             btnSort.TabIndex = 2;
             btnSort.Text = "Run Sorting";
             btnSort.UseVisualStyleBackColor = true;
-            btnSort.Click += this.btnSort_Click;
+            btnSort.Click += btnSort_Click;
+            // 
+            // lblWhatsize
+            // 
+            lblWhatsize.AutoSize = true;
+            lblWhatsize.Location = new Point(314, 31);
+            lblWhatsize.Name = "lblWhatsize";
+            lblWhatsize.Size = new Size(205, 15);
+            lblWhatsize.TabIndex = 3;
+            lblWhatsize.Text = "Enter the size of the array to be sorted";
+            // 
+            // txtSize
+            // 
+            txtSize.Location = new Point(202, 28);
+            txtSize.Name = "txtSize";
+            txtSize.Size = new Size(100, 23);
+            txtSize.TabIndex = 4;
+            // 
+            // lblDebug
+            // 
+            lblDebug.AutoSize = true;
+            lblDebug.Location = new Point(119, 123);
+            lblDebug.Name = "lblDebug";
+            lblDebug.Size = new Size(0, 15);
+            lblDebug.TabIndex = 5;
             // 
             // frmSort
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(560, 270);
+            Controls.Add(lblDebug);
+            Controls.Add(txtSize);
+            Controls.Add(lblWhatsize);
             Controls.Add(btnSort);
             Controls.Add(lblSelectionSort);
             Controls.Add(lblBubbleSort);
+            Margin = new Padding(2);
             Name = "frmSort";
             Text = "Sorting Fun";
             ResumeLayout(false);
@@ -80,5 +114,8 @@
         private Label lblBubbleSort;
         private Label lblSelectionSort;
         private Button btnSort;
+        private Label lblWhatsize;
+        private TextBox txtSize;
+        private Label lblDebug;
     }
 }
