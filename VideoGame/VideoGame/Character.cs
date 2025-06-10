@@ -9,6 +9,7 @@ namespace VideoGame
     public class Character
     {
         //private fields/attributes
+        //maybe add a fith field like charisma or speed or something
         private int attack;
         private string name;
         private int health;
@@ -47,5 +48,11 @@ namespace VideoGame
             Defense = new_defense;
         }
 
+        // method to display the character's info
+        public string DisplayInfo()
+        {
+            //return a formatted string with all the character's info. Return only what you think is necessary for the object to display.
+            return $"{Name} has {Health} health, {Defense} defense, and {Attack} attack.";
+        }
     }
 }
