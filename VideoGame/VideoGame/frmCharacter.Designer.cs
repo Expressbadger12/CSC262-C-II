@@ -33,11 +33,14 @@
             lblName = new Label();
             txtName = new TextBox();
             lblHealth = new Label();
-            txtHealth = new TextBox();
             lblAttack = new Label();
-            txtAttack = new TextBox();
             lblDefense = new Label();
-            txtDefense = new TextBox();
+            nudAttack = new NumericUpDown();
+            nudHealth = new NumericUpDown();
+            nudDefense = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)nudAttack).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudHealth).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudDefense).BeginInit();
             SuspendLayout();
             // 
             // btnCreate
@@ -84,13 +87,6 @@
             lblHealth.TabIndex = 4;
             lblHealth.Text = "Health:";
             // 
-            // txtHealth
-            // 
-            txtHealth.Location = new Point(527, 219);
-            txtHealth.Name = "txtHealth";
-            txtHealth.Size = new Size(150, 31);
-            txtHealth.TabIndex = 5;
-            // 
             // lblAttack
             // 
             lblAttack.AutoSize = true;
@@ -99,13 +95,6 @@
             lblAttack.Size = new Size(66, 25);
             lblAttack.TabIndex = 6;
             lblAttack.Text = "Attack:";
-            // 
-            // txtAttack
-            // 
-            txtAttack.Location = new Point(153, 319);
-            txtAttack.Name = "txtAttack";
-            txtAttack.Size = new Size(150, 31);
-            txtAttack.TabIndex = 7;
             // 
             // lblDefense
             // 
@@ -116,23 +105,43 @@
             lblDefense.TabIndex = 8;
             lblDefense.Text = "Defense:";
             // 
-            // txtDefense
+            // nudAttack
             // 
-            txtDefense.Location = new Point(527, 319);
-            txtDefense.Name = "txtDefense";
-            txtDefense.Size = new Size(150, 31);
-            txtDefense.TabIndex = 9;
+            nudAttack.Location = new Point(153, 311);
+            nudAttack.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudAttack.Name = "nudAttack";
+            nudAttack.Size = new Size(180, 31);
+            nudAttack.TabIndex = 10;
+            nudAttack.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudHealth
+            // 
+            nudHealth.Location = new Point(514, 219);
+            nudHealth.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudHealth.Name = "nudHealth";
+            nudHealth.Size = new Size(180, 31);
+            nudHealth.TabIndex = 11;
+            nudHealth.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudDefense
+            // 
+            nudDefense.Location = new Point(514, 319);
+            nudDefense.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudDefense.Name = "nudDefense";
+            nudDefense.Size = new Size(180, 31);
+            nudDefense.TabIndex = 12;
+            nudDefense.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // frmCharacter
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(txtDefense);
+            Controls.Add(nudDefense);
+            Controls.Add(nudHealth);
+            Controls.Add(nudAttack);
             Controls.Add(lblDefense);
-            Controls.Add(txtAttack);
             Controls.Add(lblAttack);
-            Controls.Add(txtHealth);
             Controls.Add(lblHealth);
             Controls.Add(txtName);
             Controls.Add(lblName);
@@ -140,6 +149,9 @@
             Controls.Add(btnCreate);
             Name = "frmCharacter";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)nudAttack).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudHealth).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudDefense).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -151,10 +163,10 @@
         private Label lblName;
         private TextBox txtName;
         private Label lblHealth;
-        private TextBox txtHealth;
         private Label lblAttack;
-        private TextBox txtAttack;
         private Label lblDefense;
-        private TextBox txtDefense;
+        private NumericUpDown nudAttack;
+        private NumericUpDown nudHealth;
+        private NumericUpDown nudDefense;
     }
 }
