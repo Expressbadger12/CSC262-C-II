@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnCreate = new Button();
+            btnCreateWiz = new Button();
             lbCharacters = new ListBox();
             lblName = new Label();
             txtName = new TextBox();
@@ -38,20 +38,32 @@
             nudAttack = new NumericUpDown();
             nudHealth = new NumericUpDown();
             nudDefense = new NumericUpDown();
+            nudMana = new NumericUpDown();
+            lblWeapon = new Label();
+            lblMana = new Label();
+            nudArmor = new NumericUpDown();
+            nudMagic = new NumericUpDown();
+            lblArmor = new Label();
+            lblMagic = new Label();
+            txtWeapon = new TextBox();
+            btnCreateWar = new Button();
             ((System.ComponentModel.ISupportInitialize)nudAttack).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudHealth).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudDefense).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudMana).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudArmor).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudMagic).BeginInit();
             SuspendLayout();
             // 
-            // btnCreate
+            // btnCreateWiz
             // 
-            btnCreate.Location = new Point(345, 379);
-            btnCreate.Name = "btnCreate";
-            btnCreate.Size = new Size(112, 34);
-            btnCreate.TabIndex = 0;
-            btnCreate.Text = "Create Object";
-            btnCreate.UseVisualStyleBackColor = true;
-            btnCreate.Click += btnCreate_Click;
+            btnCreateWiz.Location = new Point(109, 499);
+            btnCreateWiz.Name = "btnCreateWiz";
+            btnCreateWiz.Size = new Size(224, 34);
+            btnCreateWiz.TabIndex = 0;
+            btnCreateWiz.Text = "Create Wizard";
+            btnCreateWiz.UseVisualStyleBackColor = true;
+            btnCreateWiz.Click += btnCreateWiz_Click;
             // 
             // lbCharacters
             // 
@@ -90,7 +102,7 @@
             // lblAttack
             // 
             lblAttack.AutoSize = true;
-            lblAttack.Location = new Point(75, 313);
+            lblAttack.Location = new Point(75, 281);
             lblAttack.Name = "lblAttack";
             lblAttack.Size = new Size(66, 25);
             lblAttack.TabIndex = 6;
@@ -99,7 +111,7 @@
             // lblDefense
             // 
             lblDefense.AutoSize = true;
-            lblDefense.Location = new Point(431, 321);
+            lblDefense.Location = new Point(431, 289);
             lblDefense.Name = "lblDefense";
             lblDefense.Size = new Size(80, 25);
             lblDefense.TabIndex = 8;
@@ -107,7 +119,7 @@
             // 
             // nudAttack
             // 
-            nudAttack.Location = new Point(153, 311);
+            nudAttack.Location = new Point(153, 279);
             nudAttack.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             nudAttack.Name = "nudAttack";
             nudAttack.Size = new Size(180, 31);
@@ -125,18 +137,107 @@
             // 
             // nudDefense
             // 
-            nudDefense.Location = new Point(514, 319);
+            nudDefense.Location = new Point(514, 287);
             nudDefense.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             nudDefense.Name = "nudDefense";
             nudDefense.Size = new Size(180, 31);
             nudDefense.TabIndex = 12;
             nudDefense.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
+            // nudMana
+            // 
+            nudMana.Location = new Point(153, 355);
+            nudMana.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudMana.Name = "nudMana";
+            nudMana.Size = new Size(180, 31);
+            nudMana.TabIndex = 15;
+            nudMana.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // lblWeapon
+            // 
+            lblWeapon.AutoSize = true;
+            lblWeapon.Location = new Point(431, 357);
+            lblWeapon.Name = "lblWeapon";
+            lblWeapon.Size = new Size(82, 25);
+            lblWeapon.TabIndex = 14;
+            lblWeapon.Text = "Weapon:";
+            // 
+            // lblMana
+            // 
+            lblMana.AutoSize = true;
+            lblMana.Location = new Point(75, 357);
+            lblMana.Name = "lblMana";
+            lblMana.Size = new Size(60, 25);
+            lblMana.TabIndex = 13;
+            lblMana.Text = "Mana:";
+            // 
+            // nudArmor
+            // 
+            nudArmor.Location = new Point(514, 425);
+            nudArmor.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudArmor.Name = "nudArmor";
+            nudArmor.Size = new Size(180, 31);
+            nudArmor.TabIndex = 20;
+            nudArmor.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudMagic
+            // 
+            nudMagic.Location = new Point(153, 425);
+            nudMagic.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudMagic.Name = "nudMagic";
+            nudMagic.Size = new Size(180, 31);
+            nudMagic.TabIndex = 19;
+            nudMagic.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // lblArmor
+            // 
+            lblArmor.AutoSize = true;
+            lblArmor.Location = new Point(441, 427);
+            lblArmor.Name = "lblArmor";
+            lblArmor.Size = new Size(67, 25);
+            lblArmor.TabIndex = 18;
+            lblArmor.Text = "Armor:";
+            // 
+            // lblMagic
+            // 
+            lblMagic.AutoSize = true;
+            lblMagic.Location = new Point(75, 427);
+            lblMagic.Name = "lblMagic";
+            lblMagic.Size = new Size(64, 25);
+            lblMagic.TabIndex = 17;
+            lblMagic.Text = "Magic:";
+            // 
+            // txtWeapon
+            // 
+            txtWeapon.Location = new Point(514, 355);
+            txtWeapon.Name = "txtWeapon";
+            txtWeapon.Size = new Size(180, 31);
+            txtWeapon.TabIndex = 21;
+            // 
+            // btnCreateWar
+            // 
+            btnCreateWar.Location = new Point(460, 490);
+            btnCreateWar.Name = "btnCreateWar";
+            btnCreateWar.Size = new Size(224, 34);
+            btnCreateWar.TabIndex = 22;
+            btnCreateWar.Text = "Create Warrior";
+            btnCreateWar.UseVisualStyleBackColor = true;
+            btnCreateWar.Click += btnCreateWar_Click;
+            // 
             // frmCharacter
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 616);
+            Controls.Add(btnCreateWar);
+            Controls.Add(txtWeapon);
+            Controls.Add(nudArmor);
+            Controls.Add(nudMagic);
+            Controls.Add(lblArmor);
+            Controls.Add(lblMagic);
+            Controls.Add(nudMana);
+            Controls.Add(lblWeapon);
+            Controls.Add(lblMana);
             Controls.Add(nudDefense);
             Controls.Add(nudHealth);
             Controls.Add(nudAttack);
@@ -146,19 +247,22 @@
             Controls.Add(txtName);
             Controls.Add(lblName);
             Controls.Add(lbCharacters);
-            Controls.Add(btnCreate);
+            Controls.Add(btnCreateWiz);
             Name = "frmCharacter";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)nudAttack).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudHealth).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudDefense).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudMana).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudArmor).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudMagic).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnCreate;
+        private Button btnCreateWiz;
         private ListBox lbCharacters;
         private Label lblName;
         private TextBox txtName;
@@ -168,5 +272,14 @@
         private NumericUpDown nudAttack;
         private NumericUpDown nudHealth;
         private NumericUpDown nudDefense;
+        private NumericUpDown nudMana;
+        private Label lblWeapon;
+        private Label lblMana;
+        private NumericUpDown nudArmor;
+        private NumericUpDown nudMagic;
+        private Label lblArmor;
+        private Label lblMagic;
+        private TextBox txtWeapon;
+        private Button btnCreateWar;
     }
 }

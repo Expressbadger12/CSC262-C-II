@@ -14,3 +14,19 @@ C:\Users\FSTEWART86142\source\repos\VideoGame\VideoGame\obj\Debug\net8.0-windows
 C:\Users\FSTEWART86142\source\repos\VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.pdb
 C:\Users\FSTEWART86142\source\repos\VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.genruntimeconfig.cache
 C:\Users\FSTEWART86142\source\repos\VideoGame\VideoGame\obj\Debug\net8.0-windows\ref\VideoGame.dll
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\bin\Debug\net8.0-windows\VideoGame.exe
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\bin\Debug\net8.0-windows\VideoGame.deps.json
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\bin\Debug\net8.0-windows\VideoGame.runtimeconfig.json
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\bin\Debug\net8.0-windows\VideoGame.dll
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\bin\Debug\net8.0-windows\VideoGame.pdb
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.frmCharacter.resources
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.csproj.GenerateResource.cache
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.AssemblyInfoInputs.cache
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.AssemblyInfo.cs
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.csproj.CoreCompileInputs.cache
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.dll
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\refint\VideoGame.dll
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.pdb
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\VideoGame.genruntimeconfig.cache
+C:\Users\fboon\Downloads\Expressbadger12 CSC262-C-II main VideoGame\VideoGame\obj\Debug\net8.0-windows\ref\VideoGame.dll
