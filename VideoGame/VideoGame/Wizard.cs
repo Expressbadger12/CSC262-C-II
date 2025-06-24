@@ -59,10 +59,29 @@ namespace VideoGame
             return "FIREBALL!";
         }
 
-        public string DisplayInfoWiz()
+        public override string DisplayInfo()
         {
-            //return a formatted string with all the character's info. Return only what you think is necessary for the object to display.
+            //We chose to return the base class's displayinfo plys the mana and magic.
+            //alternatively you could return the information in a completely different formate
             return $"{Name} is a wizard has {Health} health, {Defense} defense, {Attack} attack, {Mana} mana, and {Magic} magic.";
         }
+
+        public override string DisplayInfo(int num)
+        {
+            if (num == 2)
+            {
+                return mana.ToString() + " mana " + magic.ToString() + "magic";
+            }
+            else
+            {
+                return base.DisplayInfo(num);
+            }
+        }
+
+        //public string DisplayInfoWiz()
+        //{
+        //    //return a formatted string with all the character's info. Return only what you think is necessary for the object to display.
+        //    return $"{Name} is a wizard has {Health} health, {Defense} defense, {Attack} attack, {Mana} mana, and {Magic} magic.";
+        //}
     }
 }

@@ -21,7 +21,7 @@ namespace VideoGame
             Wizard newWizard = new Wizard(attack, name, health, defense, mana, magic);
 
             //show the character's info in the list box
-            lbCharacters.Items.Add(newWizard.DisplayInfoWiz());
+            lbCharacters.Items.Add(newWizard.DisplayInfo());
         }
 
         private void btnCreateWar_Click(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace VideoGame
             Warrior newWarrior = new Warrior(attack, name, health, defense, weapon, armor);
 
             //show the character's info in the list box
-            lbCharacters.Items.Add(newWarrior.DisplayInfoWar());
+            lbCharacters.Items.Add(newWarrior.DisplayInfo());
         }
     }
 }

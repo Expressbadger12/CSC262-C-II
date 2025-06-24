@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame\\VideoGame\\VideoGame.csproj",
+      "projectUniqueName": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame (1)\\VideoGame\\VideoGame.csproj",
       "projectName": "VideoGame",
-      "projectPath": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame\\VideoGame\\VideoGame.csproj",
+      "projectPath": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame (1)\\VideoGame\\VideoGame.csproj",
       "packagesPath": "C:\\Users\\fboon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame\\VideoGame\\obj\\",
+      "outputPath": "C:\\Users\\fboon\\Downloads\\Expressbadger12 CSC262-C-II main VideoGame (1)\\VideoGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

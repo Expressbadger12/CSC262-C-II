@@ -53,10 +53,17 @@ namespace VideoGame
             return "ptch!";
         }
 
-        public string DisplayInfoWar()
+        public override string DisplayInfo()
         {
-            //return a formatted string with all the character's info. Return only what you think is necessary for the object to display.
+            //We chose to return the base class's displayinfo plys the mana and magic.
+            //alternatively you could return the information in a completely different formate
             return $"{Name} is a Warrior and has {Health} health, {Defense} defense, {Attack} attack, {Armor} armor, and has a {weapon}.";
         }
+
+        //public string DisplayInfoWar()
+        //{
+        //    //return a formatted string with all the character's info. Return only what you think is necessary for the object to display.
+        //    return $"{Name} is a Warrior and has {Health} health, {Defense} defense, {Attack} attack, {Armor} armor, and has a {weapon}.";
+        //}
     }
 }
