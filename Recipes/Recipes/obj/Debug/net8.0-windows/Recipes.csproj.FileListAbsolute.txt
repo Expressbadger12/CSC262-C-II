@@ -1,0 +1,16 @@
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\bin\Debug\net8.0-windows\Recipes.exe
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\bin\Debug\net8.0-windows\Recipes.deps.json
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\bin\Debug\net8.0-windows\Recipes.runtimeconfig.json
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\bin\Debug\net8.0-windows\Recipes.dll
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\bin\Debug\net8.0-windows\Recipes.pdb
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.frmRecipeAdd.resources
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.csproj.GenerateResource.cache
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.AssemblyInfoInputs.cache
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.AssemblyInfo.cs
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.csproj.CoreCompileInputs.cache
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.dll
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\refint\Recipes.dll
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.pdb
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\Recipes.genruntimeconfig.cache
+C:\Users\fboon\Desktop\CSC202\Recipes\Recipes\obj\Debug\net8.0-windows\ref\Recipes.dll
